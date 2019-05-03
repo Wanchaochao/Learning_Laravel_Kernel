@@ -289,7 +289,7 @@ class Application extends Container implements ApplicationContract, HttpKernelIn
     
         public function resolveProvider($provider)
         {
-            eturn new $provider($this);
+            return new $provider($this);
         }
     
         protected function markAsRegistered($provider)
